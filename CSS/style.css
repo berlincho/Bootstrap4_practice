@@ -7,19 +7,19 @@
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
+    min-height: 150px;
 }
 
 .footer{
-    background-color:#D1C4E9;
+    background-color:#C7D0CF;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron{
     padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    background-color: #9575CD;
+    margin: 0px 0px 40px 0px;
+    background-color: #25F0D8;
     color: white;
 }
 .address {
