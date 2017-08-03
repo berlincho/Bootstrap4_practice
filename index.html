@@ -39,8 +39,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col col-sm align-self-center">
+                <div class="col-12 col-sm-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid"></img>
+                </div>
+                <div class="col-12 col-sm-2 align-self-center">
+                    <a href="#reserve_table" class="btn btn-warning" role="button">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -64,7 +67,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                         src="img/uthappizza.png"></img>
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge-pill badge-default">$4.99</span></h2>
                         <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>    
@@ -77,8 +80,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail align-self-center"
+                            src="img/buffet.png"></img>
+                </div>
             </div>
         </div>
 
@@ -97,6 +106,66 @@
                     </div>
                 </div>    
            </div>
+        </div>
+        <div class="row row-content justify-content-center">
+            <div class="col-12 col-sm-8">
+                <div class="card">
+                    <h3 class="card-warning card-header text-white" id="reserve_table">Reserve a Table</h3>
+                    <div class="card-block">
+                        <form>
+                            <div class="form-group row">
+                                <label for="number" class="col-md-2 col-form-label">Number of Guests</label>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="number" id="number" value=""> 1
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="number" id="number" value=""> 2
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="number" id="number" value=""> 3
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="number" id="number" value=""> 4
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="number" id="number" value=""> 5
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="number" id="number" value=""> 6
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="datetime" class="col-md-2 col-form-label">Date and Time</label>
+                                <div class="input-group col-10 col-md-5">
+                                    <div class="input-group-addon"><span class="fa fa-calendar fa-lg"></span></div>
+                                    <input type="text" class="form-control" id="datetime" name="datetime" placeholder="Date"></input>
+                                </div>
+                                <div class="input-group col-10 col-md-5">
+                                    <div class="input-group-addon"><span class="fa fa-clock-o fa-lg"></span></div>
+                                    <input type="text" class="form-control" id="datetime" name="datetime" placeholder="Time"></input>
+                                </div>
+                            </div>
+                            <div class="form-group row">      
+                                <div class=" col-md-10">
+                                    <button type="submit" class="btn btn-primary">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>   
+                </div>
+            </div>
         </div>
     </div>
 
