@@ -20,7 +20,7 @@ $carousel-item-height: 300px;
     border-bottom: 1px ridge;
     min-height:400px;
 }
-
+ 
 .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
@@ -65,8 +65,8 @@ body{
         }
     }
 }
-
-#carousel-button {
+ 
+#carousel-btn {
     right:0px;
     position: absolute;
     bottom: 0px;
